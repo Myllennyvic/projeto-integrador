@@ -1,0 +1,252 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0079B5;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+.img{
+  display: block;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+h1{
+  text-align: left;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/jost/v15/92zPtBhPNqw79Ij1E865zBUv7myjJTVPNIg8mg.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.subtitle{
+  font-family: Jost, sans-serif;
+  font-weight: 550;
+  font-size: 35px;
+  color: #0079B5 ;
+  padding: 10px;
+  white-space: nowrap;
+  margin: 0;
+}
+.description-about{
+  font-size: 15px;
+  display: flex;
+  padding: 1px;
+  text-align: left;
+  align-self: center;
+  margin: 0;
+  color: #0079B5;
+}
+.titlePro{
+  color: black;
+}
+.boxs{
+  display: flex;
+  justify-content: center;
+}
+.box1, .box2, .box3{
+  display: flex;
+  width: 400px;
+  height: 300px;
+  background-color: #0079B5;
+  margin: 5px;
+  padding: 20px;
+}
+.buttonn1, .buttonn2, .buttonn3{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
+}
+.box1{
+  background-color: #0060A1;
+}
+.box3{
+  background-color: #57BAEB;
+}
+
+main {
+  margin: 50px 20px 50px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.user-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.professional-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+}
+
+
+/* Estilos da página principal */
+.main {
+  text-align: center;
+  padding: 50px;
+}
+
+.main h1 {
+  font-size: 24px;
+}
+
+.main .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main .buttons a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+/* Estilo do botão para 'entrar' */
+.login-link1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.login-link1 a {
+  color: #666;
+  text-decoration: none;
+}
+/* Formulário do Profissional */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}
+/* Final do Formulario do Profissional */
+
+/* Formulario do Usuário */
+* {
+  box-sizing: border-box;
+}
+
+.containerUsuario {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group1 input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group1 input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-link1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link1 a {
+  color: #666;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .containerUsuario {
+    padding: 10px;
+  }
+}
+/* Final do Formulario do Usuário */
