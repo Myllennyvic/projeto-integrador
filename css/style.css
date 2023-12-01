@@ -1,0 +1,355 @@
+
+@import "./fontawesome/scss/fontawesome.scss";
+@import "./fontawesome/scss/solid.scss";
+@import "./fontawesome/scss/brands.scss";
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0079B5;
+  padding: 20px;
+  text-align: center;
+  top: 0;
+  display: flex;
+  position: sticky;
+}
+
+.img{
+  display: block;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+h1{
+  text-align: left;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box1, .box2, .box3 {
+  background-color: #0060A1;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+.box2{
+  background-color: #0079B5;
+}
+.box3{
+  background-color: #57BAEB;
+}
+h2{
+  color: white;
+}
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .box-container {
+      flex-direction: column;
+  }
+
+  .box {
+      margin-bottom: 20px;
+  }
+}
+
+.Objetivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-div {
+  text-align: center;
+}
+
+main {
+  margin: 50px 20px 50px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.user-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.professional-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+}
+
+
+/* Estilos da página principal */
+.main {
+  text-align: center;
+  padding: 50px;
+}
+
+.main h1 {
+  font-size: 24px;
+}
+
+.main .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.main .buttons a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+/* Estilo do botão para 'entrar' */
+.login-link1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.login-link1 a {
+  color: #666;
+  text-decoration: none;
+}
+/* Formulário do Profissional */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+}
+/* Final do Formulario do Profissional */
+
+/* Formulario do Usuário */
+* {
+  box-sizing: border-box;
+}
+
+.containerUsuario {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group1 {
+  margin-bottom: 20px;
+}
+
+.form-group1 label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group1 input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-group1 input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-link1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link1 a {
+  color: #666;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .containerUsuario {
+    padding: 10px;
+  }
+}
+/* Final do Formulario do Usuário */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    width: 110%;
+    background-color: #57BAEB;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.titleOld{
+  margin-top: 10px;
+}
+nav ul li a:hover{
+    background: #0060A1;
+}
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 920px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #57BAEB;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 23px;
+    }
+  }
+
+  div.scroll-container {
+    background-color: #0060A1;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 0px;
+  }
+  
+  div.scroll-container img {
+    padding: 20px;
+  }
+
+  .element {
+    background: url('path/to/your/icon.png') no-repeat center center;
+  }
