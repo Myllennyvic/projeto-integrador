@@ -395,7 +395,7 @@ nav .menu-btn i{
       
   }
   .botao:hover{
-      border: 1px solid #262626;
+      border: 1px solid #008CBA;
       color: #0079B5!important;
   }
   .botao::before {
@@ -403,7 +403,7 @@ nav .menu-btn i{
       width: 0%;
       height: 100%;
       display: block;
-      background: #262626;
+      background: #008CBA;
       position: absolute;
       -ms-transform: skewX(-15deg);
       -webkit-transform: skewX(-15deg); 
