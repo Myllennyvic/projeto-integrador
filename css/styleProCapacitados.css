@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    background-color: #0060A1;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    height: 100px;
+    margin-top: auto;
+}
+
+.cuidadores{
+    width: 1830px;
+    height: 500px;
+    border: 5px solid #0060A1;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.CuidadoresIdosos{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.subtitleCuidadores{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.listaCuidadores{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btnCuidador{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #003960;
+    color: white;
+}
+
+.a{
+    width: 1830px;
+    height: 600px;
+    border: 5px solid #0060A1;
+    margin-left: 20px;
+}
+
+.enfermeiros{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.subtitleEnfermeiros{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.listaEnfermeiros{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btnEnfermeiros{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #003960;
+    color: white;
+}
+
+.nutricionistas{
+    width: 1830px;
+    height: 340px;
+    border: 5px solid #0060A1;
+    margin: 20px;
+}
+
+.titleNutricionistas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.subtitleNutricionistas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.listaNutricionistas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btnNutricionistas{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #003960;
+    color: white;
+}
+
+.fisioterapeutas{
+    width: 1830px;
+    height: 390px;
+    border: 5px solid #0060A1;
+    margin: 20px;
+}
+
+.titleFisioterapeutas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.subtitleFisioterapeutas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.listaFisioterapeutas{
+    color: #0060A1;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.btnFisioterapeutas{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #003960;
+    color: white;
+}

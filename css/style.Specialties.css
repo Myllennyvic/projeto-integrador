@@ -1,0 +1,91 @@
+.main {
+    background-color: #57BAEB;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    height: 200px;
+    margin-top: auto;
+}
+.containerBox1 {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+
+.teste1 {
+    width: 1600px;
+    height: 150px;
+    padding: 40px;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: #0060A1;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.titleDiferences1{
+    color: #0079B5;
+    text-align: left;
+}
+.subtitleDiferences1{
+    color: #0079B5;
+    text-align: left;
+}
+
+
+.teste2 {
+    width: 1600px;
+    height: 150px;
+    padding: 40px;
+    margin-right: 10px;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: #0079B5;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.titleDiferences2{
+    align-items: center;
+    color: #0079B5;
+    text-align: left;
+}
+.subtitleDiferences2{
+    align-items: center;
+    color: #0079B5;
+    text-align: left;
+}
+
+.teste3 {
+    width: 1600px;
+    height: 150px;
+    padding: 40px;
+    margin-right: 10px;
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: #57BAEB;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.titleDiferences3{
+    align-items: center;
+    color: #0079B5;
+    text-align: left;
+}
+.subtitleDiferences3{
+    align-items: center;
+    color: #0079B5;
+    text-align: left;
+}
